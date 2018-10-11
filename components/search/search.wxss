@@ -1,0 +1,29 @@
+/* components/search/search.wxss */
+
+.store-search {
+  display: flex;
+  padding: 10rpx 16rpx;
+  font-size: 30rpx;
+  color: #fff;
+  background: #f2395b;
+}
+
+.search-box {
+  padding-left: 26rpx;
+  flex: 1 0 auto;
+  display: flex;
+  align-items: center;
+  height: 60rpx;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.login {
+  flex: 0 1 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box icon {
+  margin-right: 12rpx;
+}

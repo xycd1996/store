@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "store-search": "../../components/search/search",
+    "store-slider": "../../components/slider/slider",
+    "store-menu": "../../components/menu/menu"
+  }
+}

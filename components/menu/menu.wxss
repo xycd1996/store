@@ -1,0 +1,17 @@
+/* components/menu/menu.wxss */
+
+.store-menu {
+  padding: 25rpx 22rpx;
+  display: flex;
+}
+
+.menu-item {
+  display: inline-block;
+  margin: 16rpx 25rpx;
+  font-size: 22rpx;
+}
+
+.menu-item .title {
+  display: block;
+  text-align: center;
+}

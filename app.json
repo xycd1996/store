@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/cart/cart",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f2395b",
+    "navigationBarTitleText": "购物商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#f2395b",
+    "backgroundColor": "#efefef",
+    "borderStyle": "#e0ddda",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "common/images/home_light.png",
+        "selectedIconPath": "common/images/home_fill_light.png"
+      },
+      {
+        "pagePath": "pages/classify/classify",
+        "text": "分类",
+        "iconPath": "common/images/goods_light.png",
+        "selectedIconPath": "common/images/goods_fill.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "common/images/cart_light.png",
+        "selectedIconPath": "common/images/cart_fill_light.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "个人中心",
+        "iconPath": "common/images/my_light.png",
+        "selectedIconPath": "common/images/my_fill_light.png"
+      }
+    ]
+  }
+}

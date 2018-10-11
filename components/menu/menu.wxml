@@ -1,0 +1,11 @@
+<!--components/menu/menu.wxml-->
+<view class="store-menu">
+    <ul>
+      <block wx:for="{{menus}}">
+        <li class="menu-item">
+          <image src="{{item.img}}" style="width: 85rpx; height: 85rpx;" />
+          <text class="title">{{item.title}}</text>
+        </li>
+      </block>
+    </ul>
+</view>

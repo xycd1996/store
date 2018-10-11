@@ -1,0 +1,16 @@
+<!--components/slider/slider.wxml-->
+<view class="store-slider">
+  <swiper indicator-dots="{{indicatorDots}}" 
+          autoplay="{{autoplay}}" 
+          interval="{{interval}}" 
+          duration="{{duration}}" 
+          indicator-color="{{indicatorColor}}" 
+          indicator-active-color="{{indicatorActiveColor}}" 
+          circular="{{circular}}">
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" style="width: 100%; height: 100%;" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

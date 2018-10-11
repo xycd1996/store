@@ -1,0 +1,10 @@
+<!--components/search/search.wxml-->
+<view class="store-search">
+  <view class="search-box">
+    <icon type="search" size="14" color="#fff" />
+    <text>中粮长城干红葡萄酒</text>
+  </view>
+  <view class="login">
+    <text>登录</text>
+  </view>
+</view>

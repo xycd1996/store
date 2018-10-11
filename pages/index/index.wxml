@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view>
+  <store-search></store-search>
+  <store-slider></store-slider>
+  <store-menu></store-menu>
+</view>
