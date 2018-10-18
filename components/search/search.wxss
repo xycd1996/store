@@ -1,29 +1,34 @@
 /* components/search/search.wxss */
 
 .store-search {
+  position: fixed;
   display: flex;
   padding: 10rpx 16rpx;
+  box-sizing: border-box;
+  width: 100%;
   font-size: 30rpx;
   color: #fff;
+  top: 0;
+  z-index: 99;
   background: #f2395b;
 }
 
+.store-search .before, .store-search .after {
+  flex: 0 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .search-box {
-  padding-left: 26rpx;
   flex: 1 0 auto;
+  padding-left: 26rpx;
   display: flex;
   align-items: center;
   height: 60rpx;
   background: rgba(255, 255, 255, 0.2);
 }
 
-.login {
-  flex: 0 1 80rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.search-box icon {
-  margin-right: 12rpx;
+.search-box image {
+  margin-right: 10rpx;
 }

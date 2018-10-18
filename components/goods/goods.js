@@ -1,17 +1,24 @@
-// pages/classify/cat.js
+// components/goods/goods.js
 Component({
   /**
    * 组件的属性列表
    */
   properties: {
-
+    onload: {
+      type: Boolean,
+      value: false
+    },
+    goods: {
+      type: Array,
+      value: []
+    }
   },
 
   /**
    * 组件的初始数据
    */
   data: {
-
+    
   },
 
   /**

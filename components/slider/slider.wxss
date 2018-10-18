@@ -1,1 +1,4 @@
 /* components/slider/slider.wxss */
+.store-slider swiper{
+  height: 375rpx;
+}

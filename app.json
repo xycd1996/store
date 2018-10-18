@@ -36,7 +36,7 @@
         "selectedIconPath": "common/images/cart_fill_light.png"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "pages/mine/mine",
         "text": "个人中心",
         "iconPath": "common/images/my_light.png",
         "selectedIconPath": "common/images/my_fill_light.png"

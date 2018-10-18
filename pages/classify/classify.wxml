@@ -1,2 +1,6 @@
-<!--pages/classify/classify.wxml-->
-<text>pages/classify/classify.wxml</text>
+<!-- pages/classify/classify.wxml -->
+<view class="classify">
+  <view class="header">
+    <store-search></store-search>
+  </view>
+</view>

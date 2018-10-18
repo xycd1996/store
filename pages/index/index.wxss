@@ -1,1 +1,9 @@
 /* pages/index/index.wxss */
+
+.content {
+  margin-top: 80rpx;
+}
+
+.content .goods {
+  background: #F2F2F2;
+}

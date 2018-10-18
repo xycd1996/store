@@ -3,6 +3,7 @@
   "usingComponents": {
     "store-search": "../../components/search/search",
     "store-slider": "../../components/slider/slider",
-    "store-menu": "../../components/menu/menu"
+    "store-menu": "../../components/menu/menu",
+    "store-goods": "../../components/goods/goods"
   }
 }

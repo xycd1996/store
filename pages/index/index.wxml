@@ -1,6 +1,19 @@
-<!--pages/index/index.wxml-->
-<view>
-  <store-search></store-search>
-  <store-slider></store-slider>
-  <store-menu></store-menu>
+<!-- pages/index/index.wxml -->
+<view class="index">
+  <view class="header">
+    <store-search backSwitch>
+      <view slot="after" style="margin-left: 10rpx;">登录</view>
+    </store-search>
+  </view>
+  <view class="content">
+    <view class="banner">
+      <store-slider></store-slider>
+    </view>
+    <view class="menu">
+      <store-menu></store-menu>
+    </view>
+    <view class="goods">
+      <store-goods onload="{{onload}}" goods="{{goods}}"></store-goods>
+    </view>
+  </view>
 </view>

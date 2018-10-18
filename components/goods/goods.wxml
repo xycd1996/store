@@ -1,0 +1,28 @@
+<!--components/goods/goods.wxml-->
+<view class="store-goods">
+  <view class="header-title">
+    <text>- 为你精选 -</text>
+  </view>
+  <view class="goods-list">
+    <ul>
+      <block wx:for="{{goods}}" wx:key="index">
+        <li class="goods-item"  onReachBottom="{{onReachBottom}}">
+          <view class="img">
+            <image src="{{item.img}}" style="width: 350rpx; height: 350rpx;" />
+          </view>
+          <view class="text">
+            <view class="title">
+              {{item.title}}
+            </view>
+            <span class="price">
+              <span style="font-size: 20rpx;">￥</span>{{item.price}}
+            </span>
+            <span class="sold">
+              已拼{{item.sold}}件
+            </span>
+          </view>
+        </li>
+      </block>
+    </ul>
+  </view>
+</view>

@@ -1,10 +1,13 @@
-<!--components/search/search.wxml-->
+<!-- components/search/search.wxml -->
 <view class="store-search">
+  <view class="before">
+    <image hidden="{{backSwitch}}" src="../../common/images/back.svg" style="width: 30rpx; height: 54rpx;margin-right: 10rpx;" />
+  </view>
   <view class="search-box">
-    <icon type="search" size="14" color="#fff" />
+    <image src="./images/search.svg" style="width: 30rpx; height: 30rpx;" />
     <text>中粮长城干红葡萄酒</text>
   </view>
-  <view class="login">
-    <text>登录</text>
+  <view class="after" hidden="{{!backSwitch}}">
+    <slot name="after"></slot>
   </view>
 </view>

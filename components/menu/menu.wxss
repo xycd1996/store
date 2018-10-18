@@ -2,7 +2,12 @@
 
 .store-menu {
   padding: 25rpx 22rpx;
+}
+
+.store-menu ul {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .menu-item {

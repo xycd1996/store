@@ -1,0 +1,39 @@
+/* components/goods/goods.wxss */
+.store-goods .header-title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80rpx;
+  font-size: 28rpx;
+}
+
+.goods-list ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.goods-item {
+  margin-bottom: 25rpx;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.goods-item .text {
+  padding: 15rpx 15rpx;
+}
+
+.goods-item .text .title {
+  font-size: 24rpx;
+}
+
+.goods-item .text .price {
+  font-size: 32rpx;
+  color: red;
+}
+
+.goods-item .text .sold {
+  font-size: 20rpx;
+  color: #aaa;
+}

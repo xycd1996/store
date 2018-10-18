@@ -1,10 +1,19 @@
 // components/search/search.js
 Component({
+  options: {
+    multipleSlots: true // 在组件定义时的选项中启用多slot支持
+  },
   /**
    * 组件的属性列表
    */
   properties: {
-
+    backSwitch: {
+      type: Boolean,
+      value: false,
+      observer: function (newVal, oldVal, changedPath) {
+        console.log(newVal, oldVal, changedPath)
+      }
+    }
   },
 
   /**
@@ -19,5 +28,8 @@ Component({
    */
   methods: {
 
+  },
+  created() {
+    console.log(this.properties.backSwitch)
   }
 })
